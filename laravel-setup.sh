@@ -23,9 +23,9 @@ sudo mysql_secure_installation
 
 
 # Get the MySQL root password from the user
-read -s -p "Enter MySQL root password: " root_password'
-read -s -p "Enter Dialogflux database user name: " databaseUser'
-read -s -p "Enter Dialogflux database user password: " databaseUserPassword'
+read -s -p "Enter MySQL root password: " root_password
+read -s -p "Enter Dialogflux database user name: " databaseUser
+read -s -p "Enter Dialogflux database user password: " databaseUserPassword
 
 # Update the package list
 sudo apt-get update
